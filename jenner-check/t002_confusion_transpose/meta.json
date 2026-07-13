@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_confusion_transpose",
+  "source_file": "utl-altair-slc-probabilistic-neural-networks-pnn-gaussain-kernel-using-r.sas",
+  "source_blob_sha": "47d5c2656c1b57073c953bad15110e4a964146d2",
+  "source_commit": "9f9b9837060e4840b95214e65b71ee59dee88c5a",
+  "notes": "The program's PROC TRANSPOSE (by pred_species / id true_species / var count) that pivots the long confusion matrix into WORKX.CONFUSION_XPO. CONFUSION_DF is normally produced by the R/PNN step; here it is rebuilt as a WORK data step from the 9-row long-form table the program documents in its own output, so the identical transpose reproduces the documented obs=3 pivot standalone."
+}
