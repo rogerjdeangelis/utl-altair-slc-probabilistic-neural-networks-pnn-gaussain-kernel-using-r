@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_iris_ingest_sort",
+  "source_file": "utl-altair-slc-probabilistic-neural-networks-pnn-gaussain-kernel-using-r.sas",
+  "source_blob_sha": "47d5c2656c1b57073c953bad15110e4a964146d2",
+  "source_commit": "9f9b9837060e4840b95214e65b71ee59dee88c5a",
+  "notes": "Iris ingest via cards4/retain/informat/input @@ + PROC SORT by species, lifted verbatim from the program; the WORKX SLC library is remapped to WORK and a PROC FREQ on species confirms the 3-class load. Runs standalone on Jenner."
+}

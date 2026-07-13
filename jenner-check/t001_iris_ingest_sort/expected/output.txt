@@ -1,0 +1,7 @@
+The FREQ Procedure
+
+Species       Frequency    Percent
+-----------------------------------
+setosa               34     34.00
+versicolor           33     33.00
+virginica            33     33.00

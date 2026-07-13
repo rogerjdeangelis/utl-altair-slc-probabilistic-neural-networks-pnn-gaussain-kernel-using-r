@@ -1,0 +1,17 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA work.confusion_df
+
+NOTE: Processing inline DATALINES (9 lines)
+
+NOTE: Read 9 rows from DATALINES.
+NOTE: Wrote work.confusion_df (9 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC TRANSPOSE data=work.confusion_df
+
+NOTE: Created 3 rows.
+NOTE: Output written to /tmp/work/r_114db566c7fd4509a6a52db5fdd73c87/work/8e00bd2a-6c06-4f6a-b1fd-9e7f3709efea/confusion_xpo.avro.
+NOTE: PROC PRINT data=work.confusion_xpo
+
+NOTE: PROC PRINT completed: 3 observations printed, 5 variables
